@@ -245,6 +245,7 @@ class SymSpell(PickleMixin):
         # occurs. edits/suggestions are created as soon as the word occurs in the
         # corpus, even if the same term existed before in the dictionary as an
         # edit from another word
+        #test
         if len(key) > self._max_length:
             self._max_length = len(key)
 
